@@ -1,0 +1,10 @@
+[package]
+name = "pdf_extractor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29"
+egui = "0.29"
+lopdf = "0.34"
+rfd = "0.15"
