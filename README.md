@@ -12,6 +12,11 @@ A simple GUI application built with Rust that allows you to extract specific pag
 - ✅ Input validation and error handling
 - 🚀 Fast and lightweight
 
+## TODO
+- [] The browse button does not work, one needs to manually write the paht to the pdf file, need to fix
+- [] Refactor to have gui element and backend pdf-management element separated
+- [] add screenshot of the app to the README
+
 ## Prerequisites
 
 ### For Linux/WSL Users
@@ -118,11 +123,12 @@ cargo clean
 ## Project Structure
 
 ```
-pdf-page-extractor/
-├── Cargo.toml          # Project dependencies and metadata
-├── src/
-│   └── main.rs         # Main application code
-└──README.md           # This file
+PDF-page-extractor/
+├── Cargo.lock
+├── Cargo.toml
+├── README.md
+└── src
+    └── main.rs
 ```
 
 ## Dependencies
