@@ -3,7 +3,6 @@
 A simple GUI application built with Rust that allows you to extract specific pages from PDF files.
 
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
 
 ## Features
 
@@ -96,6 +95,11 @@ Or run the compiled binary directly:
 
 ```bash
 ./target/release/pdf_extractor
+```
+
+You can clean the generated files this way:
+```bash
+cargo clean
 ```
 
 ### How to Extract Pages
