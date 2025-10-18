@@ -12,6 +12,10 @@ A simple GUI application built with Rust that allows you to extract specific pag
 - ✅ Input validation and error handling
 - 🚀 Fast and lightweight
 
+<p align="center">
+    <img src="doc/app.png" alt="app screenshot"/>
+</p>
+
 ## TODO
 - [ ] The browse button does not work, one needs to manually write the paht to the pdf file, need to fix
 - [ ] Refactor to have gui element and backend pdf-management element separated
